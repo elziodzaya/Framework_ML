@@ -18,7 +18,13 @@ st.markdown(
 
 # Path gambar
 
-image_path = "gambar/home.jpg"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+image_path = os.path.join(
+    BASE_DIR,
+    "gambar",
+    "home.jpg"
+)
 
 # Tampilkan gambar jika ada
 if os.path.exists(image_path):
