@@ -54,10 +54,11 @@ st.markdown("""
     By using this application, you can perform data analysis and visualization more quickly and efficiently,
     as well as build machine learning models with classification techniques.
     <br><br>
-
-    <a href="https://www.youtube.com/watch?v=J0Z1SKt0kBE&t=1761s" target="_blank">
-        📺 Application Demo
-    </a>
+    <div>
+        <a href="https://www.youtube.com/watch?v=J0Z1SKt0kBE&t=1761s" target="_blank">
+            📺 Application Demo
+        </a>
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
