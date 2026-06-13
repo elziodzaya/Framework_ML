@@ -40,20 +40,20 @@ else:
 # Deskripsi aplikasi
 st.markdown("""
 <div style="text-align:center;">
-    <strong>
-    This application functions as a tool for creating models and applications based on machine learning.
-    </strong>
-    <br><br>
+<strong>
+This application functions as a tool for creating models and applications based on machine learning.
+</strong>
 
-    By using this application, you can perform data analysis and visualization more quickly and efficiently,
-    as well as build machine learning models with classification techniques.
-    <br><br>
+<br><br>
 
-    <a href="https://www.youtube.com/watch?v=J0Z1SKt0kBE&t=1761s" target="_blank">
-        📺 Application Demo
-    </a>
+By using this application, you can perform data analysis and visualization more quickly and efficiently,
+as well as build machine learning models with classification techniques.
 </div>
 """, unsafe_allow_html=True)
+
+st.markdown(
+    "[📺 Application Demo](https://www.youtube.com/watch?v=J0Z1SKt0kBE&t=1761s)"
+)
 
 # Footer
 render_footer()
