@@ -17,7 +17,7 @@ st.markdown(
 )
 
 # Path gambar
-root_path = os.path.dirname(os.path.dirname(__file__))
+
 image_path = os.path.join('gambar', 'home.jpg')
 
 # Tampilkan gambar jika ada
