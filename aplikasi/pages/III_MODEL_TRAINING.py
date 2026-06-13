@@ -14,9 +14,7 @@ from utils.session_utils import upload_data, reset_data, check_session_keys
 from utils.evaluation import generate_evaluation_pdf
 from utils.ui_utils import render_centered_title
 
-if "logged_in" not in st.session_state or not st.session_state.logged_in:
-    st.warning("Silakan login terlebih dahulu melalui halaman Login.")
-    st.stop()
+
 
 render_centered_title("🔧 MODEL TRAINING")
 st.markdown("""
