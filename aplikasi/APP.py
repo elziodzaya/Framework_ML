@@ -53,7 +53,7 @@ st.markdown("""
 
     By using this application, you can perform data analysis and visualization more quickly and efficiently,
     as well as build machine learning models with classification techniques.
-    <br><br>
+    
 
 </div>
 """, unsafe_allow_html=True)
