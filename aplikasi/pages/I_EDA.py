@@ -17,9 +17,7 @@ from utils.preprocessing import (
 import warnings
 warnings.filterwarnings("ignore")
 
-if "logged_in" not in st.session_state or not st.session_state.logged_in:
-    st.warning("Please log in first.!")
-    st.stop()
+
     
 render_centered_title("🔍 Exploratory Data Analysis (EDA)")
 st.markdown("""
