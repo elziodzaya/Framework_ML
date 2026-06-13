@@ -15,9 +15,7 @@ from utils.aplikasi_utils import (
     download_manual_history_excel
 )
 
-if "logged_in" not in st.session_state or not st.session_state.logged_in:
-    st.warning("Please log in first.!")
-    st.stop()
+
 
 render_centered_title("🎯 APPLICATION")
 st.markdown("""
