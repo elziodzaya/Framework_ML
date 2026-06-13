@@ -8,10 +8,7 @@ from utils.ui_utils import render_centered_title
 from utils.evaluation import generate_evaluation_pdf
 from utils.model_utils import evaluate_model, plot_confusion_matrix, plot_roc_curve
 
-# ========== Autentikasi ==========
-if "logged_in" not in st.session_state or not st.session_state.logged_in:
-    st.warning("Silakan login terlebih dahulu melalui halaman Login.")
-    st.stop()
+
 
 render_centered_title("🧪 EVALUASI MODEL")
 st.markdown("""
