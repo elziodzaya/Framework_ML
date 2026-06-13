@@ -54,13 +54,16 @@ st.markdown("""
     By using this application, you can perform data analysis and visualization more quickly and efficiently,
     as well as build machine learning models with classification techniques.
     <br><br>
-    <div>
-        <a href="https://www.youtube.com/watch?v=J0Z1SKt0kBE&t=1761s" target="_blank">
-            📺 Application Demo
-        </a>
-    </div>
+
 </div>
 """, unsafe_allow_html=True)
+col1, col2, col3 = st.columns([1,1,1])
 
+with col2:
+    st.link_button(
+        "📺 Application Demo",
+        "https://www.youtube.com/watch?v=J0Z1SKt0kBE&t=1761s",
+        use_container_width=True
+    )
 # Footer
 render_footer()
