@@ -10,9 +10,7 @@ from utils.ui_utils import render_centered_title
 import warnings
 warnings.filterwarnings("ignore")
 
-if "logged_in" not in st.session_state or not st.session_state.logged_in:
-    st.warning("Silakan login terlebih dahulu melalui halaman Login.")
-    st.stop()
+
 # Judul Aplikasi
 render_centered_title("📊 DATA VISUALIZATION ")
 st.markdown("""
